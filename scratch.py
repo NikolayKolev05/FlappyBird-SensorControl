@@ -59,9 +59,9 @@ class Bird(pygame.sprite.Sprite):
             if self.vel == 0:
                 self.flap = False
             if self.flap:
-                self.image = pygame.transform.rotate(self.image, 20)  # Face upward when flapping
+                self.image = pygame.transform.rotate(self.image, 20)
             else:
-                self.image = pygame.transform.rotate(self.image, -20)  # Face downward when falling
+                self.image = pygame.transform.rotate(self.image, -20)
             if user_input[pygame.K_SPACE] and not self.flap and self.rect.y > 0:
                 self.flap = True
                 self.vel = -7
