@@ -1,1 +1,2 @@
 # FlappyBird-SensorControl
+This repository contains a Python and Arduino-integrated Flappy Bird clone built using Pygame, where sensor input from an Arduino controls the bird’s movement. The game features dynamic animations, collision detection, and level progression along with a retro aesthetic. To run the project, ensure the Arduino is connected on the right COM and all asset images are placed in the flappy folder.
